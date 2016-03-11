@@ -4,6 +4,6 @@ public class studentinfoController2
     
     public studentinfoController2()
     {
-         studentlist = [select ID from Student__c];
+         studentlist = [select ID,Name from Student__c];
     }
 }
