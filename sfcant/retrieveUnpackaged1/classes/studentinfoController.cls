@@ -1,8 +1,8 @@
-public class studentinfoController2
+public class studentinfoController
 {
     public List<Student__c> studentlist{set;get;}
     
-    public studentinfoController2()
+    public studentinfoController()
     {
          studentlist = [select ID,name from Student__c];
     }
